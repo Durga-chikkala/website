@@ -1,0 +1,51 @@
+.education{
+    height:700px;
+    display: flex;
+    margin-top: 4rem;
+    position: relative;
+
+}
+.e-left{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.e-left>:nth-child(1){
+    font-size: 2.5rem;
+}
+.e-left>:nth-child(2){
+    font-size: 2.7rem;
+    color: var(--orange);
+}
+.e-button{
+    margin-top: 1rem;
+}
+.e-right{
+    position: relative;;
+}
+.e-right>*{
+    position: absolute;
+}
+.mobile{
+    display: none;
+}
+@media(max-width:600px){
+    .education{
+        flex-direction: column;
+       height:900px;
+    }
+   .desktop{
+    display: none;
+   }
+   
+    .e-mright>*{
+        position: relative;
+        margin-top: 100px;
+        
+    }
+    .sides{
+        position: relative;
+        margin-left: 100px;
+    }
+    
+}
