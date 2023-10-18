@@ -1,0 +1,24 @@
+.rectangle-box{
+    width:400px;
+    height:300px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px black;
+}
+.rectangle-box img{
+    width:100%;
+    height:70%;
+}
+.b-center{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+}
+@media(max-width:500px){
+    .rectangle-box{
+        width:300px;
+        height:300px;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 5px black;
+    }
+}

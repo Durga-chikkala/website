@@ -1,14 +1,14 @@
 import React from 'react'
 import "./Certificate.css";
 import {Swiper,SwiperSlide} from "swiper/react";
-import "C:/Users/DELL/Practice/practicee/src/App.css";
+import "../../App.css";
 // import Resume from "C:/Users/DELL/Practice/practicee/src/img/DurgaChikkala Web dev Resume .pdf";
 import "swiper/css";
-import IBM from "C:/Users/DELL/Practice/practicee/src/img/ibm.PNG";
-import Problem from "C:/Users/DELL/Practice/practicee/src/img/problem.png";
-import Python from "C:/Users/DELL/Practice/practicee/src/img/Python.png";
-import Sololearn from "C:/Users/DELL/Practice/practicee/src/img/sololearn.png";
-import Codemind from "C:/Users/DELL/Practice/practicee/src/img/codemind.png";
+import IBM from "../../img/ibm.PNG";
+import Problem from "../../img/problem.png";
+import Python from "../../img/Python.png";
+import Sololearn from "../../img/sololearn.png";
+import Codemind from "../../img/codemind.png";
 import {MdDoubleArrow} from 'react-icons/md';
 function Certificate() {
   return (

@@ -1,0 +1,24 @@
+.teach-box{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow:  20px 20px 60px #d9d5d5,
+    -20px -20px 60px #ffffff;
+    cursor: pointer;
+
+}
+.teach-box img{
+    width:98%;
+    height:98%;
+    border-radius: 50%;
+}
+
+@media(max-width:480px){
+    .teach-box{
+        width:80px;
+        height:80px;
+        box-shadow:  20px 20px 10px #d9d5d5,
+        -20px -20px 10px #ffffff;
+    }
+}

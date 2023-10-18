@@ -1,4 +1,4 @@
-.card{
+.cards{
     display: flex;
     position: relative;
     width:12rem;
@@ -12,23 +12,23 @@
     align-items: center;
     justify-content: center;
 }
-.card>img{
+.cards>img{
     width:70%;
-    height:50%;
+    height:40%;
 
 }
-.card>:nth-child(2)
+.cards>:nth-child(2)
 {
     color:var(--black);
     font-weight: bold;
 }
-.card>:nth-child(4)
+.cards>:nth-child(4)
 {
     color:var(--orange);
     font-weight: bold;
 }
 @media(max-width:600px){
-    .card{
-        height:8rem;
+    .cards{
+        height:12rem;
     }
 }

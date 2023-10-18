@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import "C:/Users/DELL/Practice/practicee/src/App.css";
 import {Link} from "react-scroll";
 const Navbar=()=>{
     return (
@@ -18,7 +17,7 @@ const Navbar=()=>{
                         <li>Education</li>
                     </Link>
                     <Link to="projects" smooth={true} activeClass="activeClass" spy={true}>
-                        <li>Projects</li>
+                        <li>Courses</li>
                     </Link>
                     <Link to="certificate" smooth={true} activeClass="activeClass" spy={true}>
                         <li>Certification</li>

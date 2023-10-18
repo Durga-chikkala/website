@@ -1,12 +1,12 @@
 import React from 'react'
 import './Education.css'
-import "C:/Users/DELL/Practice/practicee/src/App.css";
-import Cards from 'C:/Users/DELL/Practice/practicee/src/components/Cards/Cards.jsx';
-import School from "C:/Users/DELL/Practice/practicee/src/img/school.png";
-import College from "C:/Users/DELL/Practice/practicee/src/img/college.png";
-import Inter from "C:/Users/DELL/Practice/practicee/src/img/inter.png";
+import "../../App.css";
+import Cards from '../Cards/Cards.jsx';
+import School from "../../img/school.png";
+import College from "../../img/college.png";
+import Inter from "../../img/inter.png";
 import {motion} from "framer-motion";
-import Resume from "C:/Users/DELL/Practice/practicee/src/img/DurgaChikkala Web dev Resume .pdf";
+import Resume from "../../img/DurgaChikkala Web dev Resume .pdf";
 
 function Education() {
     const transition={duration:1,type:"spring"}

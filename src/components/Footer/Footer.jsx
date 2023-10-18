@@ -1,5 +1,5 @@
 import React from 'react'
-import Wave from "C:/Users/DELL/Practice/practicee/src/img/wave.png";
+import Wave from "../../img/wave.png";
 import './Footer.css'
 import {FaFacebook,  FaInstagram,FaGithub} from "react-icons/fa";
 import {SiLeetcode,SiHackerrank} from 'react-icons/si';

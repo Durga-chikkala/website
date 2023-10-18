@@ -2,7 +2,7 @@ import React from 'react'
 import './Cards.css';
 function Cards(props) {
   return (
-    <div className='card'>
+    <div className='cards'>
         
         <img src={props.img} alt=""/>
         <span>{props.name}</span>

@@ -1,6 +1,6 @@
 import React, {useState, useRef} from 'react';
 import emailjs from '@emailjs/browser';
-import Love from "C:/Users/DELL/Practice/practicee/src/img/Love.png";
+// import Love from "C:/Users/DELL/Practice/practicee/src/img/Love.png";
 
 import "./Contact.css";
 function Contact() {
@@ -9,7 +9,7 @@ function Contact() {
     const sendEmail = (e) => {
       e.preventDefault();
   
-       emailjs.sendForm('service_6cu1a37', 'template_iqkxijw', form.current, 'tNbRyifQ_gmTGVOpP')
+       emailjs.sendForm('service_6cu1a37', 'template_iqkxijw', form.current, 'KjWk2nTkExf3qKebM')
         .then((result) => {
             setDone(true)
             console.log(result.text);
@@ -26,9 +26,9 @@ function Contact() {
         </div>
         <div className='c-right'>
             
-            <input type="text" name="user_name" placeholder='Name' />
+            <input type="text" name="from_name" placeholder='Name'/>
             
-            <input type="email" name="user_email"  placeholder="Email"/>
+            <input type="email" name="from_email"  placeholder="Email"/>
             
             <textarea name="message" placeholder="Message" />
             <input type="submit" value="Send" className='button' />
